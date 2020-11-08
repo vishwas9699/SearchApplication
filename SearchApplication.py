@@ -5,6 +5,7 @@ import wikipedia as wiki
 from tkinter.messagebox import askokcancel
 import threading
 
+# function
 
 def call_for_search(*args):
     x= threading.Thread(target=search)
